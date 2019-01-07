@@ -4,7 +4,7 @@
   "description": "Blur a button or other element automatically when clicked.",
   "main": "./lib/index.js",
   "scripts": {
-      "build": "babel src --out-dir lib",
+    "build": "babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build"
   },
@@ -18,8 +18,10 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1"
-},
-    "babel": {
-        "presets": ["env"]
-    }
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
 }
